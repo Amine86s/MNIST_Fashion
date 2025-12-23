@@ -20,7 +20,7 @@ class FashionCNN(nn.Module):
         )
 
         self.fc1 = nn.Linear(64 * 6 * 6, 600)
-        self.drop = nn.Dropout2d(0.25)
+        self.drop = nn.Dropout(0.25)
         self.fc2 = nn.Linear(600, 120)
         self.fc3 = nn.Linear(120, 10)
 
