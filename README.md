@@ -90,6 +90,10 @@ Batch size: 100
 
 Model eğitimi sırasında kayıp değeri düzenli olarak azalmış, doğruluk oranı ise artış göstermiştir. Eğitim tamamlandıktan sonra model, test veri seti üzerinde değerlendirilmiştir.
 
+<img width="640" height="480" alt="accuracy" src="https://github.com/user-attachments/assets/159f3c7c-8bab-43e7-a6d4-8b48c2a891f8" />
+<img width="640" height="480" alt="loss" src="https://github.com/user-attachments/assets/96c5b6a9-070e-4d1f-ad6c-d5c39333bf09" />
+
+
 Performans Sonuçları:
 
 Accuracy: %91
@@ -134,7 +138,7 @@ fashion_project/
 ├── data/
 │
 ├── README.md
-└── report.pdf
+└── dp_rapor.pdf
 
 
 Bu yapı, kodun okunabilirliğini ve yeniden kullanılabilirliğini artırmaktadır.
